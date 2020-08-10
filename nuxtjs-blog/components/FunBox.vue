@@ -1,5 +1,5 @@
 <template>
-  <a-col :xs="24" :sm="8" :md="8" :lg="6" :xl="4" class="fun-box">
+  <a-col :xs="24" :sm="8" :md="8" :lg="6" class="fun-box">
     <a-card hoverable>
       <img slot="cover" alt="example" class="cover-img" :src="cover" />
       <template slot="actions" class="ant-card-actions">
