@@ -5,7 +5,7 @@
     </a-breadcrumb-item>
 
     <a-breadcrumb-item v-for="(item, index) in pathArray" :key="item.path">
-      <span v-if="index === pathArray.length">{{ item.name }}</span>
+      <span v-if="index === pathArray.length - 1">{{ item.name }}</span>
       <nuxt-link v-else :to="item">{{ item.name | pathNameFilter }}</nuxt-link>
     </a-breadcrumb-item>
   </a-breadcrumb>
