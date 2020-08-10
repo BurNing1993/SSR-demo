@@ -1,6 +1,9 @@
-import axios from "axios";
+import axios from 'axios'
 
-module.exports = aysnc(req, res) => {
-  const { data } = await axios.get('https://api.muxiaoguo.cn/api/xiaohua')
-  res.status(200).json(data)
+module.exports = (req, res) => {
+  axios
+    .get('https://api.muxiaoguo.cn/api/xiaohua')
+    .then(({ data: { data } }) => {
+      res.status(200).json(data)
+    })
 }
