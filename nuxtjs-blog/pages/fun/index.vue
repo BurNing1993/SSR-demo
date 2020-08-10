@@ -14,6 +14,12 @@
         description="随机笑话一则"
         path="/fun/joke"
       />
+      <FunBox
+        cover="https://ae01.alicdn.com/kf/Hbab3e028facc4c04985730d0a39341fcV.jpg"
+        title="Bing美图"
+        description="一周Bing精美壁纸"
+        path="/fun/bing"
+      />
     </a-row>
   </div>
 </template>

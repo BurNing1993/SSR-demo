@@ -62,11 +62,16 @@ export default {
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
-  axios: {},
+  axios: {
+    proxy: true,
+  },
   /*
    ** Content module configuration
    ** See https://content.nuxtjs.org/configuration
    */
+  proxy: {
+    '/api/': 'https://nuxtjs-blog.joey2019.vercel.app/',
+  },
   content: {},
   /*
    ** Build configuration
@@ -74,6 +79,6 @@ export default {
    */
   build: {},
   loading: {
-    color: '#5352ed',
+    color: '#2ed573',
   },
 }

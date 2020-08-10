@@ -20,6 +20,10 @@ export default {
       switch (path) {
         case 'blog':
           return '博客'
+        case 'fun':
+          return 'FUN'
+        case 'joke':
+          return '笑话'
         default:
           return path
       }
