@@ -1,5 +1,5 @@
 export default {
-  buildDir: 'dist',
+  // buildDir: 'dist',
   /*
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
@@ -74,7 +74,6 @@ export default {
    */
   build: {},
   loading: {
-    color: 'blue',
-    height: '5px',
+    color: '#5352ed',
   },
 }
